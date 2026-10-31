@@ -47,10 +47,12 @@ https://github.com/nzhrasyaifi-glitch/KopiDanNyemil
 
 Berikut adalah dokumentasi tampilan aplikasi KopiDanNyemil:
 
-- Splash / Welcome
   ### Splash/Welcome
   ![Splash](splash.png)
-- Sign Up
+
+  ### Sign Up
+  ![Sign Up](signup.png)
+  
 - Login
 - Register
 - Home
