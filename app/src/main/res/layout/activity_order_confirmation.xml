@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F3EB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="☕"
+            android:textSize="60sp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Konfirmasi Pesanan"
+            android:textColor="#493222"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Pesanan"
+            android:textColor="#493222"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/tvConfirmProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cappuccino"
+            android:textColor="#493222"
+            android:textSize="17sp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvConfirmQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah: 1"
+            android:textColor="#806B5A"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvConfirmTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total: Rp 25.000"
+            android:textColor="#493222"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pengiriman"
+            android:textColor="#493222"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/tvConfirmReceiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Penerima"
+            android:textColor="#493222"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvConfirmPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor Telepon"
+            android:textColor="#806B5A"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvConfirmAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Lengkap"
+            android:textColor="#806B5A"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvConfirmAddressDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patokan: -"
+            android:textColor="#806B5A"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnConfirmOrder"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Selesaikan Pesanan"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#493222"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F3EB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profil Saya"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#493222"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:gravity="center"
+                android:text="👤"
+                android:textSize="65sp"
+                android:background="#E8D8C5"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:id="@+id/tvProfileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Pengguna"
+                android:textColor="#493222"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="18dp" />
+
+            <TextView
+                android:id="@+id/tvProfileUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@username"
+                android:textColor="#806B5A"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Informasi Akun"
+                android:textColor="#493222"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:layout_marginTop="35dp" />
+
+            <TextView
+                android:id="@+id/tvProfileEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email: -"
+                android:textColor="#806B5A"
+                android:textSize="16sp"
+                android:padding="15dp"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Keluar"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#493222"
+                android:layout_marginTop="35dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:elevation="8dp">
+
+        <TextView
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Home"
+            android:textSize="14sp"
+            android:textColor="#493222"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/navOrder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Order"
+            android:textSize="14sp"
+            android:textColor="#493222"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/navProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Profile"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:background="#493222" />
+
+    </LinearLayout>
+
+</LinearLayout>

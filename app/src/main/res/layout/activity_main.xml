@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F8F3EB"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:gravity="center"
+        android:text="☕"
+        android:textSize="65sp"
+        android:background="@drawable/circle_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kopi dan Nyemil"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#493222"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get a taste of your wish"
+        android:textSize="15sp"
+        android:textColor="#806B5A"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Start Now"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#493222"
+        android:layout_marginTop="65dp" />
+
+</LinearLayout>

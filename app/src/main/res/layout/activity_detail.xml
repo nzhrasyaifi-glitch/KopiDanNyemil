@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F3EB"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Produk"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#493222"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:id="@+id/tvProductEmoji"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="☕"
+            android:textSize="85sp"
+            android:gravity="center"
+            android:background="@drawable/circle_logo" />
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cappuccino"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#493222"
+            android:gravity="center"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/tvProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp 25.000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#806B5A"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Pesanan"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#493222"
+            android:layout_marginTop="35dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/btnMinus"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:text="-"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#493222" />
+
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#493222"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:text="+"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#493222" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total: Rp 25.000"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#493222"
+            android:gravity="center"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Pesan Sekarang"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#493222"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

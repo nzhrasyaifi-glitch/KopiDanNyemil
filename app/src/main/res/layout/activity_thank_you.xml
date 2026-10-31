@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:padding="28dp">
+
+    <TextView
+        android:id="@+id/tvThankYouGreeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halo, Nama!"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="OK"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#087C43"
+        android:background="@drawable/bg_success_circle"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Terima kasih sudah memesan. Tunggu aja sebentar, kurir kami segera mengantarkan pesananmu!"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="8dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnThankYouDone"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Oke"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#222222" />
+
+</LinearLayout>

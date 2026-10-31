@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#F8F3EB">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="☕"
+        android:textSize="65sp"
+        android:background="@drawable/circle_logo"
+        android:gravity="center"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login User"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#493222"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome back! Please login to continue."
+        android:textSize="14sp"
+        android:textColor="#493222"
+        android:gravity="center"
+        android:layout_marginBottom="35dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Username"
+        android:textColor="#493222"
+        android:textColorHint="#806B5A"
+        android:padding="14dp"
+        android:singleLine="true"
+        android:backgroundTint="#806B5A" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#493222"
+        android:textColorHint="#806B5A"
+        android:padding="14dp"
+        android:singleLine="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#806B5A" />
+
+    <Button
+        android:id="@+id/btnLoginUser"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#493222"
+        android:layout_marginTop="35dp" />
+
+</LinearLayout>

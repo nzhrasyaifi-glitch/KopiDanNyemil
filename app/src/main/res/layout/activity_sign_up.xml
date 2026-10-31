@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F8F3EB"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:gravity="center"
+        android:text="☕"
+        android:textSize="65sp"
+        android:background="@drawable/circle_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Kopi dan Nyemil!"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#493222"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join as a member and enjoy delicious coffee and snacks anytime."
+        android:textSize="15sp"
+        android:textColor="#806B5A"
+        android:layout_marginTop="12dp"
+        android:lineSpacingExtra="5dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#493222"
+        android:layout_marginTop="55dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Login"
+        android:textColor="#493222"
+        android:textStyle="bold"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
