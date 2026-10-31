@@ -45,37 +45,35 @@ https://github.com/nzhrasyaifi-glitch/KopiDanNyemil
 
 ## Screenshot Tampilan
 
-Berikut adalah dokumentasi tampilan aplikasi KopiDanNyemil:
+### Splash / Welcome
+![Splash](splash.png)
 
-  ### Splash/Welcome
-  ![Splash](splash.png)
+### Sign Up
+![Sign Up](signup.png)
 
-  ### Sign Up
-  ![Sign Up](signup.png)
+### Login
+![Login](login.png)
 
-  ### Login
-  ![Login](login.png)
+### Register
+![Register](register.png)
 
-  ### Register
-  ![Register](register.png)
+### Home
+![Home](home.png)
 
-  ### Home
-  ![Home](home.png)
+### Detail Produk
+![Detail Produk](detailproduk.png)
 
-  ### Detail Produk
-  ![Detail Produk](detailproduk.png)
+### Alamat Pengiriman
+![Alamat Pengiriman](alamatpengiriman.png)
 
-  ### Alamat Pengiriman
-  ![Alamat Pengiriman](alamatpengiriman.png)
+### Konfirmasi Pesanan
+![Konfirmasi Pesanan](konfirmasipesanan.png)
 
-  ### Konfirmasi Pesanan
-  ![Konfirmasi Pesanan](konfirmasipesanan.png)
+### Ucapan Terima Kasih
+![Ucapan](ucapan.png)
 
-  ### Ucapan Terima Kasih
-  ![Ucapan](ucapan.png)
+### Profile
+![Profile](profile.png)
 
-  ### Profile
-  ![Profile](profile.png)
-
-  ### Riwayat Pesanan
-  ![Riwayat Pesanan](riwayatpesanan.png)
+### Riwayat Pesanan
+![Riwayat Pesanan](riwayatpesanan.png)
