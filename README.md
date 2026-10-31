@@ -34,3 +34,26 @@ Nadhifa Zahra Syaifi
 ## Repository
 
 https://github.com/nzhrasyaifi-glitch/KopiDanNyemil
+
+## Cara Menjalankan Aplikasi
+
+1. Clone repository KopiDanNyemil dari GitHub.
+2. Buka project menggunakan Android Studio.
+3. Tunggu hingga proses Gradle Sync selesai.
+4. Hubungkan perangkat Android atau jalankan Android Emulator.
+5. Klik tombol Run untuk menjalankan aplikasi.
+
+## Screenshot Tampilan
+
+Berikut adalah dokumentasi tampilan aplikasi KopiDanNyemil:
+
+- Splash / Welcome
+- Sign Up
+- Login
+- Register
+- Home
+- Detail Produk
+- Alamat Pengiriman
+- Konfirmasi Pesanan
+- Profile
+- Riwayat Pesanan
