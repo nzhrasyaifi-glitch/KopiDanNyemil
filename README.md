@@ -52,12 +52,30 @@ Berikut adalah dokumentasi tampilan aplikasi KopiDanNyemil:
 
   ### Sign Up
   ![Sign Up](signup.png)
-  
-- Login
-- Register
-- Home
-- Detail Produk
-- Alamat Pengiriman
-- Konfirmasi Pesanan
-- Profile
-- Riwayat Pesanan
+
+  ### Login
+  ![Login](login.png)
+
+  ### Register
+  ![Register](register.png)
+
+  ### Home
+  ![Home](home.png)
+
+  ### Detail Produk
+  ![Detail Produk](detailproduk.png)
+
+  ### Alamat Pengiriman
+  ![Alamat Pengiriman](alamatpengiriman.png)
+
+  ### Konfirmasi Pesanan
+  ![Konfirmasi Pesanan](konfirmasipesanan.png)
+
+  ### Ucapan Terima Kasih
+  ![Ucapan](ucapan.png)
+
+  ### Profile
+  ![Profile](profile.png)
+
+  ### Riwayat Pesanan
+  ![Riwayat Pesanan](riwayatpesanan.png)
